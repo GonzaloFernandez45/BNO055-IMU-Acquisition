@@ -72,8 +72,8 @@ bool hasReference = false;
 float gFilt = 0.0f;
 const float gAlpha = 0.15f;
 
-const float gyroStillEnter = 0.25f; //enter still
-const float gyroStillExit  = 0.60f; // exit still
+const float gyroStillEnter = 5.0f; //enter still
+const float gyroStillExit  = 15.0f; // exit still
 
 bool isStill = false;
 
